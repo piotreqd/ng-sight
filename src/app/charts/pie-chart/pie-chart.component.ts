@@ -16,7 +16,7 @@ export class PieChartComponent implements OnInit {
        backgroundColor: ['#26547C', '#FF6B6B', '#FFD166']
     }
   ];
-  pieChartType: 'pie';
+  pieChartType = 'pie';
 
   ngOnInit(): void {
   }
