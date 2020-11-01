@@ -13,6 +13,7 @@ import { LineChartComponent } from './charts/line-chart/line-chart.component';
 import { SectionSalesComponent } from './sections/section-sales/section-sales.component';
 import { SectionOrdersComponent } from './sections/section-orders/section-orders.component';
 import { SectionHealthComponent } from './sections/section-health/section-health.component';
+import { ServerComponent } from './server/server.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SectionHealthComponent } from './sections/section-health/section-health
     LineChartComponent,
     SectionSalesComponent,
     SectionOrdersComponent,
-    SectionHealthComponent
+    SectionHealthComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
