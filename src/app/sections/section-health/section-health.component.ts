@@ -21,5 +21,4 @@ export class SectionHealthComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
